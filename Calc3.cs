@@ -6,31 +6,34 @@ using System.Threading.Tasks;
 
 namespace Program
 {
-    public class Calc1 : Main
+    public class Calc3 : Main
     {
-        double Tg, Tst, N_CO2, N_H20, l, r, e;
-        public Calc1(double Tg, double Tst, double N_CO2, double N_H2O, double l, double r, double e) {
+        double Tg, Tst, N_CO2, N_H20, l, b, e, h, h1;
+        public Calc3(double Tg, double Tst, double N_CO2, double N_H2O, double l, double b, double e, double h, double h1)
+        {
             this.Tg = Convert.ToDouble(Tg);
             this.Tst = Convert.ToDouble(Tst);
             this.N_CO2 = Convert.ToDouble(N_CO2);
             this.N_H20 = Convert.ToDouble(N_H2O);
             this.l = Convert.ToDouble(l);
-            this.r = Convert.ToDouble(r);
+            this.b = Convert.ToDouble(b);
             this.e = Convert.ToDouble(e);
+            this.h = Convert.ToDouble(h);
+            this.h1 = Convert.ToDouble(h1);
         }
 
         public double F()
         {
-            return 2 * Math.PI * r * l;
+            return 2 * Math.PI * b * l;
         }
 
         public double V()
         {
-            return Math.PI * Math.Pow(r, 2) * l;
+            return Math.PI * Math.Pow(b, 2) * l;
         }
         public double S()
         {
-            return 0.9 * 4 * V()/ F();
+            return 0.9 * 4 * V() / F();
         }
         public double k_Tr()
         {
@@ -40,7 +43,7 @@ namespace Program
         public double e_g()
         {
             //(0,8+1,6*B5*100000)*(1-0,00038*B2)/((100000*B5+100000*B4)*G8)^0,5
-            return 1 - Math.Exp(-k_Tr() * (N_CO2+N_H20)*100000*S());
+            return 1 - Math.Exp(-k_Tr() * (N_CO2 + N_H20) * 100000 * S());
         }
         public double k_Tst()
         {
@@ -49,14 +52,14 @@ namespace Program
         public double ar()
         {
             //=1-EXP(-G11*(100000*B5+100000*B4)*G8)
-            return 1 - Math.Exp(-k_Tst()*100000*(N_CO2+N_H20)*S());
+            return 1 - Math.Exp(-k_Tst() * 100000 * (N_CO2 + N_H20) * S());
         }
 
         //=5,67*(G10/G12*(B2/100)^4-(B3/100)^4)/(1/G12+1/B8-1)
 
         public double q()
         {
-            return 5.67 * (e_g() / ar() * Math.Pow(Tg / 100 , 4) - Math.Pow(Tst / 100 , 4)) / (1 / ar() + 1 / e - 1);
+            return 5.67 * (e_g() / ar() * Math.Pow(Tg / 100, 4) - Math.Pow(Tst / 100, 4)) / (1 / ar() + 1 / e - 1);
         }
     }
 }

@@ -29,10 +29,17 @@ namespace Program
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             Form2 form2 = new Form2();
             form2.Show();
 
-            this.Close();
+            //this.Close();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

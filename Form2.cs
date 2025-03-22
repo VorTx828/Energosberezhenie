@@ -24,9 +24,15 @@ namespace Program
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Calc1 a = new Calc1( Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), Convert.ToDouble(textBox5.Text), Convert.ToDouble(textBox6.Text), Convert.ToDouble(textBox7.Text));
+            if (textBox1.Text!="" && textBox2.Text!="" && textBox3.Text!="" && textBox4.Text!="" && textBox5.Text!="" && textBox6.Text!="" && textBox7.Text!= "")
+            {
+                Calc1 a = new Calc1(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), Convert.ToDouble(textBox5.Text), Convert.ToDouble(textBox6.Text), Convert.ToDouble(textBox7.Text));
 
-            Result result = new Result(a);
+                Result result = new Result(a);
+                result.Show();
+                this.Close();
+            }
+            
 
             
         }

@@ -1,0 +1,14 @@
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.Form1.resources
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.Form2.resources
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.Form3.resources
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.Form4.resources
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.Properties.Resources.resources
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.Result.resources
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.csproj.GenerateResource.cache
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\bin\Debug\Program.exe.config
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\bin\Debug\Program.exe
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\bin\Debug\Program.pdb
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.exe
+C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.pdb
