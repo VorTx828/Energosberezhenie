@@ -1,44 +1,38 @@
-using System.Net.Sockets;
-using System.Net;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace OSPract3
+namespace Program
 {
     public partial class Form1 : Form
     {
-        IUser? chat;
-
         public Form1()
         {
             InitializeComponent();
-            Logger.Label = Label_Status;
-            FormClosed += (_, _) =>
-            {
-                chat?.Quit();
-                Logger.Close();
-            };
         }
 
-        private async void Button_Connect_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (chat != null)
-                return;
 
-            Logger.Log("Connecting");
-            chat = await Editor.Connect();
-            if (chat is Server)
-            {
-                Logger.Log("Server connected");
-            }
-            else
-            {
-                Logger.Log("Client connected");
-            }
-            Button_Connect.Enabled = false;
         }
 
-        private void Button_Send_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            chat?.Send(TextBox_Message.Text);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+
+            this.Close();
         }
     }
 }
