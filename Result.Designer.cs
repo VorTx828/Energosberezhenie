@@ -48,138 +48,154 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(441, 288);
+            this.textBox7.Location = new System.Drawing.Point(588, 354);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(123, 20);
+            this.textBox7.Size = new System.Drawing.Size(163, 22);
             this.textBox7.TabIndex = 19;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(441, 245);
+            this.textBox6.Location = new System.Drawing.Point(588, 302);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(123, 20);
+            this.textBox6.Size = new System.Drawing.Size(163, 22);
             this.textBox6.TabIndex = 18;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(441, 203);
+            this.textBox5.Location = new System.Drawing.Point(588, 250);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(123, 20);
+            this.textBox5.Size = new System.Drawing.Size(163, 22);
             this.textBox5.TabIndex = 17;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(440, 163);
+            this.textBox4.Location = new System.Drawing.Point(587, 201);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(123, 20);
+            this.textBox4.Size = new System.Drawing.Size(163, 22);
             this.textBox4.TabIndex = 16;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(439, 126);
+            this.textBox3.Location = new System.Drawing.Point(585, 155);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 20);
+            this.textBox3.Size = new System.Drawing.Size(163, 22);
             this.textBox3.TabIndex = 15;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(439, 83);
+            this.textBox2.Location = new System.Drawing.Point(585, 102);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(123, 20);
+            this.textBox2.Size = new System.Drawing.Size(163, 22);
             this.textBox2.TabIndex = 14;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(439, 44);
+            this.textBox1.Location = new System.Drawing.Point(585, 54);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(123, 20);
+            this.textBox1.Size = new System.Drawing.Size(163, 22);
             this.textBox1.TabIndex = 13;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(214, 290);
+            this.label7.Location = new System.Drawing.Point(285, 357);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(190, 13);
+            this.label7.Size = new System.Drawing.Size(236, 16);
             this.label7.TabIndex = 26;
-            this.label7.Text = "Степень черноты поверхности (e ст)";
+            this.label7.Text = "Поглощательная способность газа";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(214, 252);
+            this.label6.Location = new System.Drawing.Point(185, 308);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 13);
+            this.label6.Size = new System.Drawing.Size(395, 16);
             this.label6.TabIndex = 25;
-            this.label6.Text = "Радиус сечения канала, м";
+            this.label6.Text = "Коэффициент поглощения газа через температуру стенки";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(214, 210);
+            this.label5.Location = new System.Drawing.Point(285, 258);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.Size = new System.Drawing.Size(176, 16);
             this.label5.TabIndex = 24;
-            this.label5.Text = "Длина канала, м";
+            this.label5.Text = "Степень поглощения газа";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(213, 170);
+            this.label4.Location = new System.Drawing.Point(284, 209);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 13);
+            this.label4.Size = new System.Drawing.Size(217, 16);
             this.label4.TabIndex = 23;
-            this.label4.Text = "Содержание H20 в % ";
+            this.label4.Text = "Коэффициент поглощения  газа";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(214, 133);
+            this.label3.Location = new System.Drawing.Point(285, 164);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 13);
+            this.label3.Size = new System.Drawing.Size(159, 16);
             this.label3.TabIndex = 22;
             this.label3.Text = "Эффективная площадь";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(212, 90);
+            this.label2.Location = new System.Drawing.Point(283, 111);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.Size = new System.Drawing.Size(101, 16);
             this.label2.TabIndex = 21;
-            this.label2.Text = "V";
+            this.label2.Text = "Объем канала";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(212, 51);
+            this.label1.Location = new System.Drawing.Point(283, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.Size = new System.Drawing.Size(265, 16);
             this.label1.TabIndex = 20;
-            this.label1.Text = "F";
+            this.label1.Text = "Площадь поверхности взаимодействия";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(441, 333);
+            this.textBox8.Location = new System.Drawing.Point(588, 410);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(123, 20);
+            this.textBox8.Size = new System.Drawing.Size(163, 22);
             this.textBox8.TabIndex = 27;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(213, 340);
+            this.label8.Location = new System.Drawing.Point(284, 418);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(190, 13);
+            this.label8.Size = new System.Drawing.Size(269, 16);
             this.label8.TabIndex = 28;
-            this.label8.Text = "Степень черноты поверхности (e ст)";
+            this.label8.Text = "Плотность лучистого теплового потока";
             // 
             // Result
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label7);
@@ -196,6 +212,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Result";
             this.Text = "Result";
             this.Load += new System.EventHandler(this.Result_Load);

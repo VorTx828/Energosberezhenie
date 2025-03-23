@@ -19,10 +19,14 @@ namespace Program
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Calc3 a = new Calc3(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), Convert.ToDouble(textBox5.Text), Convert.ToDouble(textBox6.Text), Convert.ToDouble(textBox7.Text), Convert.ToDouble(textBox8.Text), Convert.ToDouble(textBox9.Text));
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && textBox6.Text != "" && textBox7.Text != "" && textBox8.Text != "" && textBox9.Text != "")
+            {
+                Calc3 a = new Calc3(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), Convert.ToDouble(textBox5.Text), Convert.ToDouble(textBox6.Text), Convert.ToDouble(textBox7.Text), Convert.ToDouble(textBox8.Text), Convert.ToDouble(textBox9.Text));
 
-            Result result = new Result(a);
-            this.Close();
+                Result result = new Result(a);
+                result.Show();
+                this.Close();
+            }
         }
     }
 }
