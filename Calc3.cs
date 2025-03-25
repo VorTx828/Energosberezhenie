@@ -8,28 +8,27 @@ namespace Program
 {
     public class Calc3 : Main
     {
-        double Tg, Tst, N_CO2, N_H20, l, b, e, h, h1;
-        public Calc3(double Tg, double Tst, double N_CO2, double N_H2O, double l, double b, double e, double h, double h1)
+        double Tg, Tst, N_CO2, N_H20, l, e, h, r;
+        public Calc3(double Tg, double Tst, double N_CO2, double N_H2O, double l, double e, double h, double r)
         {
             this.Tg = Convert.ToDouble(Tg);
             this.Tst = Convert.ToDouble(Tst);
             this.N_CO2 = Convert.ToDouble(N_CO2);
             this.N_H20 = Convert.ToDouble(N_H2O);
             this.l = Convert.ToDouble(l);
-            this.b = Convert.ToDouble(b);
             this.e = Convert.ToDouble(e);
             this.h = Convert.ToDouble(h);
-            this.h1 = Convert.ToDouble(h1);
+            this.r = Convert.ToDouble(r);
         }
 
         public double F()
         {
-            return 2 * Math.PI * b * l;
+            return (Math.PI*r + h*2 + r*2)*l;
         }
 
         public double V()
         {
-            return Math.PI * Math.Pow(b, 2) * l;
+            return (Math.PI*r*r/2 + r*2*h)*l;
         }
         public double S()
         {
@@ -60,6 +59,11 @@ namespace Program
         public double q()
         {
             return 5.67 * (e_g() / ar() * Math.Pow(Tg / 100, 4) - Math.Pow(Tst / 100, 4)) / (1 / ar() + 1 / e - 1);
+        }
+
+        public double Q()
+        {
+            return q() * F();
         }
     }
 }

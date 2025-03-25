@@ -27,7 +27,7 @@ namespace Program
 
                 Result result = new Result(a);
                 result.Show();
-                this.Close();
+                this.Hide();
             }
         }
     }

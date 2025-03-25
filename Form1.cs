@@ -33,7 +33,8 @@ namespace Program
             Form2 form2 = new Form2();
             form2.Show();
 
-            //this.Close();
+            Hide();
+            form2.FormClosed += (_o, _e) => Show();
 
         }
 
@@ -47,12 +48,18 @@ namespace Program
             Form3 form3 = new Form3();
             form3.Show();
 
+            Hide();
+            form3.FormClosed += (_o, _e) => Show();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Form4 form4 = new Form4();
             form4.Show();
+
+            Hide();
+            form4.FormClosed += (_o, _e) => Show();
         }
     }
 }

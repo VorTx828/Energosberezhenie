@@ -60,5 +60,10 @@ namespace Program
         {
             return 5.67 * (e_g() / ar() * Math.Pow(Tg / 100, 4) - Math.Pow(Tst / 100, 4)) / (1 / ar() + 1 / e - 1);
         }
+
+        public double Q()
+        {
+            return q() * F();
+        }
     }
 }

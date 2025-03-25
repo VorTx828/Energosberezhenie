@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Viacheslav\\Documents\\GitHub\\Energosberezhenie\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8771D51E-B0C1-4517-B1F4-37529D687A82}|Program.csproj|c:\\users\\viacheslav\\documents\\github\\energosberezhenie\\calc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8771D51E-B0C1-4517-B1F4-37529D687A82}|Program.csproj|solutionrelative:calc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Calc1.cs",
-              "DocumentMoniker": "C:\\Users\\Viacheslav\\Documents\\GitHub\\Energosberezhenie\\Calc1.cs",
-              "RelativeDocumentMoniker": "Calc1.cs",
-              "ToolTip": "C:\\Users\\Viacheslav\\Documents\\GitHub\\Energosberezhenie\\Calc1.cs",
-              "RelativeToolTip": "Calc1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T06:46:53.104Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
