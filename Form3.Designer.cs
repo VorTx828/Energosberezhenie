@@ -206,6 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox8);
@@ -225,7 +226,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Параллелепипед";
             this.ResumeLayout(false);
             this.PerformLayout();
 

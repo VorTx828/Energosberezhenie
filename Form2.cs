@@ -32,6 +32,10 @@ namespace Program
                 result.Show();
                 this.Hide();
             }
+            else
+            {
+                MessageBox.Show("Введите все данные");
+            }
             
 
             

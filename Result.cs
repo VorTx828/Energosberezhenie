@@ -24,16 +24,14 @@ namespace Program
             textBox6.Text = Convert.ToString(a.k_Tst());
             textBox7.Text = Convert.ToString(a.ar());
             textBox8.Text = Convert.ToString(a.q());
+            textBox9.Text = Convert.ToString(a.Q());
 
 
             Form1 form1 = new Form1();
             this.FormClosed += (_o, _e) => form1.Show();
         }
 
-        private void Result_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {

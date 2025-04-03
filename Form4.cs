@@ -27,6 +27,10 @@ namespace Program
                 result.Show();
                 this.Hide();
             }
+            else
+            {
+                MessageBox.Show("Введите все данные");
+            }
         }
 
         private void label9_Click(object sender, EventArgs e)

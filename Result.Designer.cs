@@ -58,7 +58,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(588, 302);
+            this.textBox6.Location = new System.Drawing.Point(587, 302);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(163, 22);
@@ -107,7 +107,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(285, 357);
+            this.label7.Location = new System.Drawing.Point(285, 351);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(236, 16);
@@ -117,7 +117,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(185, 308);
+            this.label6.Location = new System.Drawing.Point(185, 302);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(395, 16);
@@ -127,7 +127,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(285, 258);
+            this.label5.Location = new System.Drawing.Point(285, 252);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(176, 16);
@@ -137,7 +137,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(284, 209);
+            this.label4.Location = new System.Drawing.Point(284, 203);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(217, 16);
@@ -147,7 +147,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(285, 164);
+            this.label3.Location = new System.Drawing.Point(285, 158);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 16);
@@ -157,7 +157,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(283, 111);
+            this.label2.Location = new System.Drawing.Point(283, 105);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 16);
@@ -167,7 +167,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(283, 63);
+            this.label1.Location = new System.Drawing.Point(283, 57);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(265, 16);
@@ -186,7 +186,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(284, 418);
+            this.label8.Location = new System.Drawing.Point(284, 412);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(269, 16);
@@ -196,7 +196,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(281, 471);
+            this.label9.Location = new System.Drawing.Point(281, 465);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(113, 16);
@@ -215,6 +215,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox9);
@@ -236,8 +237,7 @@
             this.Controls.Add(this.textBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Result";
-            this.Text = "Result";
-            this.Load += new System.EventHandler(this.Result_Load);
+            this.Text = "Результаты расчета";
             this.ResumeLayout(false);
             this.PerformLayout();
 
