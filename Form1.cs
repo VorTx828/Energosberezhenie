@@ -15,6 +15,7 @@ namespace Program
         public Form1()
         {
             InitializeComponent();
+            this.FormClosed += (_o, _e) => Application.Exit();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

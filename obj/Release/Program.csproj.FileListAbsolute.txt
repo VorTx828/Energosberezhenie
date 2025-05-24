@@ -1,0 +1,14 @@
+H:\Working_files\VSCODE\C#\Energosberezhenie\bin\Release\Program.exe.config
+H:\Working_files\VSCODE\C#\Energosberezhenie\bin\Release\Program.exe
+H:\Working_files\VSCODE\C#\Energosberezhenie\bin\Release\Program.pdb
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.csproj.AssemblyReference.cache
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.Form1.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.Form2.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.Form3.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.Form4.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.Properties.Resources.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.Result.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.csproj.GenerateResource.cache
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.csproj.CoreCompileInputs.cache
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.exe
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Release\Program.pdb

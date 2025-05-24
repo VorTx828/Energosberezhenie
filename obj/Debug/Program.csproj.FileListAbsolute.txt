@@ -12,3 +12,31 @@ C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\bin\Debug\Program.exe
 C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\bin\Debug\Program.pdb
 C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.exe
 C:\Users\Viacheslav\Documents\GitHub\Energosberezhenie\obj\Debug\Program.pdb
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\bin\Debug\Program.exe.config
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\bin\Debug\Program.exe
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\bin\Debug\Program.pdb
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.Form1.resources
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.Form2.resources
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.Form3.resources
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.Form4.resources
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.Properties.Resources.resources
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.Result.resources
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.csproj.GenerateResource.cache
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.exe
+C:\Users\Sp060\OneDrive\Рабочий стол\Energosberezhenie\obj\Debug\Program.pdb
+H:\Working_files\VSCODE\C#\Energosberezhenie\bin\Debug\Program.exe.config
+H:\Working_files\VSCODE\C#\Energosberezhenie\bin\Debug\Program.exe
+H:\Working_files\VSCODE\C#\Energosberezhenie\bin\Debug\Program.pdb
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.csproj.AssemblyReference.cache
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.Form1.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.Form2.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.Form3.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.Form4.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.Properties.Resources.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.Result.resources
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.csproj.GenerateResource.cache
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.csproj.CoreCompileInputs.cache
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.exe
+H:\Working_files\VSCODE\C#\Energosberezhenie\obj\Debug\Program.pdb

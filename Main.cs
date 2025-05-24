@@ -21,5 +21,7 @@ namespace Program
 
         double Q();
 
+        List<ChartData> Result(double step);
+
     }
 }
