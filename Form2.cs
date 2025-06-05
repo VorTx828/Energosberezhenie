@@ -29,6 +29,7 @@ namespace Program
                 if (500 > Convert.ToDouble(textBox1.Text) || 3000 < Convert.ToDouble(textBox1.Text))
                 {
                     MessageBox.Show("Температура газа должна быть больше 500 и меньше 3000");
+                    
                 }else if ((Convert.ToDouble(textBox3.Text) < 0 || (Convert.ToDouble(textBox3.Text) > 100)) || ( Convert.ToDouble(textBox4.Text) < 0 || Convert.ToDouble(textBox4.Text) > 100))
                 {
                     MessageBox.Show("Концентрации должны быть в пределах от 0 до 100");
